@@ -1,2 +1,18 @@
-# simple-python-scripts
-This commit adds a simple Python script that prompts the user for their name and prints a personalized greeting. This serves as a basic example to start the repository.
+# This is a simple script to greet the user.
+
+def greet_user():
+    """
+    Prompts the user for their name and then prints a personalized greeting.
+    """
+    # Ask the user to enter their name
+    name = input("Please enter your name: ")
+
+    # Create a greeting message
+    greeting_message = f"Hello, {name}! Welcome."
+
+    # Print the message
+    print(greeting_message)
+
+# Call the function to run the script
+if __name__ == "__main__":
+    greet_user()
